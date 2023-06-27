@@ -47,7 +47,79 @@ table {
 	border-spacing: 0;
 }
 
+/* styling */
+
+body {
+	background-color: rgb(127, 179, 180);
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Cormorant Garamond', serif;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 22px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 18px;
+}
+
+#aboutme {
+	background-color: none;
+	display: flex;
+}
+
+.about {
+	width: 60%;
+	background-color: #fff;
+}
+
+#mywork {
+	border: 10px black solid;
+}
+
+#cardholder {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 80%;
+	margin: 5px 10%;
+}
+
+.portfoliocard {
+	background-color: aliceblue;
+}
+
+#contactme {
+	background-color: #fac281;
+}
 
 img {
-    height: 500px;
+    height: 300px;
 }
+
+.cardimg {
+	height: 200px;
+	width: 300px;
+	background-size: cover;
+}
+
