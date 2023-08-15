@@ -142,8 +142,8 @@ img {
 
 #contactdiv {
 	overflow: auto;
-	width: 70%;
-	margin-left: 15%;
+	width: 50%;
+	margin-left: 25%;
 }
 
 .cardimg {
@@ -165,3 +165,37 @@ svg {
 	float: left;
 }
 
+@media screen and (max-width: 700px) {
+	#aboutme {
+		flex-direction: column;
+	}
+
+	.about {
+		width: 100%;
+	}
+
+	#contactdiv {
+		width: 100%;
+		margin-left: auto;
+		text-align: center;
+	}
+
+	.contactinfo {
+		overflow: inherit;
+	}
+
+	.contactinfo > svg {
+		float: none;
+	}
+
+	.contactimg {
+		float: inherit;
+	}
+  }
+
+  @media screen and (max-width: 1024px) {
+	#contactdiv {
+		width: 70%;
+		margin-left: 15%;
+	}
+  }
